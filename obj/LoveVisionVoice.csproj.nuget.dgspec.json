@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\LoveVisionVoice\\LoveVisionVoice\\LoveVisionVoice.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\LoveVisionVoice\\LoveVisionVoice\\LoveVisionVoice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LoveVisionVoice\\LoveVisionVoice\\LoveVisionVoice.csproj",
+        "projectName": "LoveVisionVoice",
+        "projectPath": "D:\\Projects\\LoveVisionVoice\\LoveVisionVoice\\LoveVisionVoice.csproj",
+        "packagesPath": "C:\\Users\\Prashan\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LoveVisionVoice\\LoveVisionVoice\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prashan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.3.0.3890, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "Syn.Speech": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
